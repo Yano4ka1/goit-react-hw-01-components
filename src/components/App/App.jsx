@@ -1,4 +1,4 @@
-import { Container } from '../Container/Container';
+import {Container} from '../Container/Container';
 
 import {Profile} from '../Profile/Profile';
 import user from '../Profile/user.json';
@@ -9,7 +9,7 @@ import data from '../Statistics/data.json';
 import {FriendList} from '../FriendList/FriendList';
 import friends from '../FriendList/friends.json';
 
-import {TransactionsHistory} from '../Transactions/TransactionHistory';
+import {TransactionHistory} from '../Transactions/TransactionHistory';
 import transactions from '../Transactions/transactions.json';
 
 export const App = () => {
@@ -26,7 +26,7 @@ export const App = () => {
                 stats={data} />
             <FriendList 
                 friends={friends} />
-            <TransactionsHistory
+            <TransactionHistory
                 items={transactions} />
         </Container>
     )
